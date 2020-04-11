@@ -1,0 +1,13 @@
+.container {
+    width:800px;
+    max-width:80%;
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+body {
+    background: black;
+}
