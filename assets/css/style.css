@@ -1,13 +1,37 @@
 .container {
-    width:800px;
+    width:200px;
     max-width:80%;
-    background: yellow;
+    background: purple;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 
 
 body {
-    background: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* justify-content can be used to position items in browser from what i read same with alin-item*/
+    justify-content: center;
+    align-items: center;
+    background-color: orchid;
+}
+
+.startBtn, .nextBtn{
+    font-size: x-large;
+    padding-left: 15px;
+    
+
+}
+
+.btn{
+    margin: 11px;
+}
+
+.hide{
+    display: none;
 }

@@ -24,20 +24,47 @@
 
 //local store to save info
 
-var obj={quest:["Question 1","Question 2","Question 3","Question 4","Question 5","Question 6"],Answers:["ans 1","ans 2","ans 3","ans 4","ans  5","ans 6"],fakeAnswers["fans 1","fans 2","fans 3","fans 4","fans  5","fans 6""fans 7","fans 8","fans 9","fans 10","fans  11","fans 12""fans 13","fans 13","fans 13","fans 14","fans  15","fans 6""ans 1","ans 2","ans 3","ans 4","ans  5","ans 6"]
-}
 
 
 
-function setNextQuestion(){
+var questions = [
+    {
+      question: 'What does html stand for?',
+      answers: [
+        { text: '  Hypertext Markup Language', correct: true },
+        { text: ' HyperTitle Markup language', correct: false },
+        {text:' Hightext Markup Language',correct:false},
+        {text:' Hightext Markup Language',correct:false},
 
-}
-function selectAnswer(){
-
-}
-
-function onRemoveClick(event){
-    event.preventDefault();
-    if event.target.matches("startBtn") 
-    
-}
+      ]
+    },
+    {
+      question: 'Who is the best Teacher?',
+      answers: [
+        { text: 'Dan', correct: true },
+        { text: 'Gary', correct: true },
+        { text: 'Eric', correct: true },
+        { text: 'Dan w/o a beard', correct: false }
+      ]
+    },
+    {
+      question: 'whats css used for',
+      answers: [
+        { text: 'Fuctions', correct: false },
+        { text: 'Styling', correct: true },
+        { text: 'creating var', correct: false },
+        { text: 'moving obj', correct: false }
+      ]
+    },
+    {
+      question: 'what is the first number in a array?',
+      answers: [
+        { text: 'null', correct: false },
+        { text: '-1', correct: false },
+        { text: '1', correct: false },
+        { text: '0', correct: true }
+        
+      ]
+    }
+  ];
+  
